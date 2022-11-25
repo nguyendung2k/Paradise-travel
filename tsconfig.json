@@ -1,0 +1,74 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "allowJs": false,
+        "skipLibCheck": true,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "baseUrl": "./src",
+        "paths": {
+            "@/assets": [
+                "./src/assets"
+            ],
+            "@/enums": [
+                "./src/enums"
+            ],
+            "@/components": [
+                "./src/components/*",
+            ],
+            "@/types": [
+                "./src/types"
+            ],
+            "@/pages": [
+                "./src/pages"
+            ],
+            "@/config": [
+                "./src/config"
+            ],
+            "@/routes": [
+                "./src/routes"
+            ],
+            "@/layouts": [
+                "./src/layouts"
+            ],
+            "@/modules": [
+                "./src/modules"
+            ],
+            "@/hooks": [
+                "./src/hooks"
+            ],
+            "@/api": [
+                "./src/api"
+            ],
+            "@/redux": [
+                "./src/redux"
+            ],
+            "@/validations": [
+                "./src/validations"
+            ]
+        }
+    },
+    "include": [
+        ".eslintrc.cjs",
+        "src"
+    ],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
+}
