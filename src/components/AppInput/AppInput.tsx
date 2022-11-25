@@ -1,9 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const AppInput = () => {
-    return (
-        <div>AppInput</div>
-    )
-}
-
-export default AppInput
+export const AppInput = () => {
+    return <div>AppInput</div>;
+};

@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Header } from './type';
 
-const AppHeader = () => {
+export const AppHeader = ({ title }: Header) => {
     return (
-        <div>AppHeader</div>
-    )
-}
-
-export default AppHeader
+        <div>
+            <h1>Header</h1>
+        </div>
+    );
+};
