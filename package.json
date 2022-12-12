@@ -9,14 +9,21 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "@chakra-ui/react": "^2.4.3",
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "@reduxjs/toolkit": "^1.9.1",
         "eslint": "8.2.0",
         "eslint-config-airbnb-typescript": "^17.0.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.2.1",
+        "framer-motion": "^7.6.19",
         "prettier": "^2.8.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-hook-form": "^7.40.0",
         "react-router-dom": "^6.4.3",
+        "redux": "^4.2.0",
         "styled-components": "^5.3.6"
     },
     "devDependencies": {
